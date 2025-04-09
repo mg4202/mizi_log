@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인스타툰 - mizi log</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: #fff;
+      text-align: center;
+      transition: transform 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .card h3 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .card p {
+      margin: 0 0 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>인스타툰</h1>
+    <p class="tagline">미지의 이야기를 담은 감성툰</p>
+  </header>
+
+  <main>
+    <section class="card-container">
+      <a class="card" href="instatoon_a1.html">
+        <img src="A1.jpg" alt="옛 예술가들의 지혜 썸네일">
+        <h3>옛 예술가들의 지혜</h3>
+        <p>예술가들이 왜 술먹고 약하는지 알 것 같아.</p>
+      </a>
+      <a class="card" href="instatoon_b1.html">
+        <img src="B1.jpg" alt="진심은 시대를 타지 않는다 썸네일">
+        <h3>진심은 시대를 타지 않는다</h3>
+        <p>이영지 노래 small girl</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 mizi log. All rights reserved.</p>
+  </footer>
+</body>
+</html>
